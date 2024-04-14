@@ -49,33 +49,20 @@
       "name": "Physics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Mathematical Physics",
-        "Numerical Methods"
-      ]
+      "keywords": ["Quantum Mechanics", "Mathematical Physics", "Numerical Methods"]
     },
     {
       "name": "Mathematics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Topology of Metric Spaces",
-        "Group Theory"
-      ]
+      "keywords": ["Topology of Metric Spaces", "Group Theory"]
     },
     {
-        "name": "Computer Science",
-        "level": "Master",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": [
-          "Scientific Computing",
-          "Compiler Engineering",
-          "3D Rendering",
-          "Simulations",
-          "Text Editors"
-        ]
-      }
+      "name": "Computer Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Scientific Computing", "Compiler Engineering", "3D Rendering", "Simulations", "Text Editors"]
+    }
   ],
   "languages": [
     {
@@ -103,23 +90,12 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Theoretical Physics",
-        "Computational Physics",
-        "Astronomy"
-      ]
+      "keywords": ["Theoretical Physics", "Computational Physics", "Astronomy"]
     },
     {
       "name": "Programming",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "C#",
-        "Rust",
-        "Python",
-        "Fortran",
-        "Javascript",
-        "Java"
-      ]
+      "keywords": ["C#", "Rust", "Python", "Fortran", "Javascript", "Java"]
     }
   ],
   "references": []
