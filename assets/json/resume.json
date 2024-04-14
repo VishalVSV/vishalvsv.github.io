@@ -26,7 +26,7 @@
   "projects": [
     {
       "name": "Digital pulse shaping of HPGe detector for neutron damage study",
-      "summary": "Developed an algorithm using CERN’s ROOT to digitally correct the spectrum obtained from a neutron damaged HGPe detector which showed that there is likely a statistical correlation between rise times of pulses and neutron damage in spectrums under Prof. R Palit.",
+      "summary": "Developed an algorithm using CERN’s ROOT to digitally correct the spectrum obtained from a neutron damaged HGPe detector which showed that there is likely a statistical correlation between rise times of pulses and neutron damage in spectrums under Prof. R Palit, DNAP, TIFR, Mumbai.",
       "highlights": ["Computation Physics", "Nuclear Physics"],
       "startDate": "2023",
       "endDate": "Summer",
@@ -52,9 +52,7 @@
       "keywords": [
         "Quantum Mechanics",
         "Mathematical Physics",
-        "Numerical Methods",
-        "Topology of Metric Spaces",
-        "Group Theory"
+        "Numerical Methods"
       ]
     },
     {
