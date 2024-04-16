@@ -1133,3 +1133,11 @@ swiper-container {
     font-size: 0.5em;
   }
 }
+
+#vertex_gol {
+    white-space: pre-wrap;
+    font-family: monospace;
+    line-height: 1.17em;
+    cursor: crosshair;
+    pointer-events: all;
+}
