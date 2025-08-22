@@ -1135,10 +1135,49 @@ swiper-container {
 }
 
 #vertex_gol {
-    white-space: pre-wrap;
+    white-space: pre;
     font-family: monospace;
     line-height: 1.17em;
     cursor: crosshair;
-    text-overflow: ellipsis;
     pointer-events: all;
+}
+
+@font-face {
+    font-family: 'jgs';
+    src: url('/assets/fonts/jgs-main/fonts/jgs_Font.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.art_font {
+    font-family: jgs;
+}
+
+//Vectors and icons by <a href="https://github.com/kamilagraf/react-swm-icon-pack?ref=svgrepo.com" target="_blank">Software Mansion</a> in CC Attribution License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>
+.spoiler_active {
+    filter: blur(5px);
+    transition: 1s linear filter;
+}
+
+.spoiler_inactive {
+    filter: none;
+    transition: 1s linear filter;
+}
+
+.spoiler_icon::before {
+    content: "Spoilers!";
+}
+
+.spoiler_icon {
+    height: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%); 
+}
+
+.spoiler {
+    position: relative;
 }

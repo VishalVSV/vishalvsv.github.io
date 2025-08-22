@@ -80,6 +80,12 @@ let applyTheme = () => {
       background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee", // + 'ee' for trasparency.
     });
   }
+
+
+  // If spoilers are used update their color!
+  if (typeof spoiler_color_update != "undefined") {
+    spoiler_color_update();
+  }
 };
 
 let setHighlight = (theme) => {

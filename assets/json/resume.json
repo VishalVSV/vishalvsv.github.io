@@ -25,6 +25,22 @@
   ],
   "projects": [
     {
+      "name": "Inversion of Internal Rotation Rate of Red Giants",
+      "summary": "Prof. Shravan Hanasoge, TIFR, Mumbai.",
+      "highlights": ["Computation Physics", "Asteroseismology", "Astrophysics"],
+      "startDate": "2025",
+      "endDate": "August",
+      "url": ""
+    },
+    {
+      "name": "Helioseismic Inversion of Rotation Rate using RLS method",
+      "summary": "Prof. H M Antia, UM DAE CEBS, Mumbai",
+      "highlights": ["Computation Physics", "Helioseismology", "Astrophysics"],
+      "startDate": "2024",
+      "endDate": "August",
+      "url": "/assets/pdf/Report_8thSem.pdf"
+    },
+    {
       "name": "Digital pulse shaping of HPGe detector for neutron damage study",
       "summary": "Developed an algorithm using CERN’s ROOT to digitally correct the spectrum obtained from a neutron damaged HGPe detector which showed that there is likely a statistical correlation between rise times of pulses and neutron damage in spectrums under Prof. R Palit, DNAP, TIFR, Mumbai.",
       "highlights": ["Computation Physics", "Nuclear Physics"],
@@ -90,12 +106,12 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Theoretical Physics", "Computational Physics", "Astronomy"]
+      "keywords": ["Theoretical Physics", "Computational Physics", "Astronomy", "Helioseismology"]
     },
     {
       "name": "Programming",
       "icon": "fa-solid fa-tag",
-      "keywords": ["C#", "Rust", "Python", "Fortran", "Javascript", "Java"]
+      "keywords": ["C#", "Rust", "Python", "Fortran", "Javascript", "Java", "Julia"]
     }
   ],
   "references": []

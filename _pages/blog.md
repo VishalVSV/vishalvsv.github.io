@@ -109,7 +109,7 @@ pagination:
       {% assign postlist = site.posts %}
     {% endif %}
 
-    {% for post in postlist %}
+    {% for post in site.posts %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -179,6 +179,8 @@ pagination:
 {% endif %}
     </li>
 
+{% else %}
+  The collection is empty.
     {% endfor %}
 
   </ul>

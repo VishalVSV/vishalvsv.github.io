@@ -277,14 +277,12 @@ jekyll-archives:
   layouts:
     year: archive-year
     tag: archive-tag
-    category: archive-category
   permalinks:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
 
-display_tags: ["physics", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: ["physics", "math", "code", "misc"] # these tags will be displayed on the front page of your blog
+display_categories: ["test"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
