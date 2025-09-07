@@ -1,0 +1,52 @@
+{
+    "title": "Mobile Photography",
+    "content": "A collection of photos all shot on various mobiles. I am no professional photographer and I am quite bad at learning it by any method apart from sheer trial and error. None of these images (so far) have been edited beyond whatever the phone automatically does. A drastic increase in quality did happen when I got a phone with a better camera and post processing.",
+    "chennai_metro": {
+        "description": "St. Thomas Metro Station at Chennai at sunset. "
+    },
+    "mu_sunbeams": {
+        "description": "Mumbai University's Kalina Campus."
+    },
+    "sunset_1": {
+        "description": "A sunset on Medavakkam, Chennai. <br> (Shot after a light shower on my way to tuition)"
+    },
+    "uni_flowers": {
+        "description": "Flowering trees at my Campus."
+    },
+    "spider_web_droplets": {
+        "description": "A spiderweb laden with droplets spotted on a monsoon trek to Lohagad Fort."
+    },
+    "samvaya_1": {
+        "description": "The band performance at my college's cultural festival."
+    },
+    "samvaya_0": {
+        "description": "The stage of my college's cultural festival."
+    },
+    "mutant_cctv": {
+        "description": "A funny shot of a CCTV camera with pigeon spikes attached to it."
+    },
+    "mumbai_monsoon_0": {
+        "description": "A shot of the Mumbai Monsoon from my college mess."
+    },
+    "mumbai_ganesh_0": {
+        "description": "A photo of one of the many Ganesh idols in Mumbai during the 2025 Ganesh Chaturti."
+    },
+    "mesa_code": {
+        "description": "The life of computational astrophysics."
+    },
+    "marine_drive_sunset_0": {
+        "description": "A picture of Pizza by the bay during Sunset."
+    },
+    "marine_drive_long_expo": {
+        "description": "A long exposure shot of the road beside marine drive at night."
+    },
+    "droplet_shrooms": {
+        "description": "Taken on a monsoon trek to Visapur."
+    },
+    "csmt_dome": {
+        "description": "A photo taken inside the dome of the famous CSMT local train station in South Bombay."
+    },
+    "classes_0": {
+        "description": "An average day at CEBS."
+    }
+}

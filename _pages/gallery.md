@@ -16,4 +16,4 @@ nav: true
 #     after: 3 # The number of links after the current page
 ---
 
-{% include image-gallery.html folder="/assets/img/gallery" %}
+{% include image-gallery.html folder="/assets/img/gallery/mobile/" id="mob" %}
