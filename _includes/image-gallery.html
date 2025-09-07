@@ -93,7 +93,7 @@
 
   function resize_captions_{{include.id}}() {
       for (const elem of image_elems_{{include.id}}) {
-          elem.desc_elem.setAttribute("style", `width: ${elem.image_tag.style.width}px; text-align: center;`);
+          elem.desc_elem.setAttribute("style", `width: ${ getComputedStyle(elem.image_tag).width }; text-align: center;`);
       }
   }
 
