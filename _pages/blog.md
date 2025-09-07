@@ -180,8 +180,8 @@ pagination:
     </li>
 
 {% else %}
-  The collection is empty.
-    {% endfor %}
+The collection is empty.
+{% endfor %}
 
   </ul>
 

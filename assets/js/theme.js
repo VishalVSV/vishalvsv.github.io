@@ -81,7 +81,6 @@ let applyTheme = () => {
     });
   }
 
-
   // If spoilers are used update their color!
   if (typeof spoiler_color_update != "undefined") {
     spoiler_color_update();

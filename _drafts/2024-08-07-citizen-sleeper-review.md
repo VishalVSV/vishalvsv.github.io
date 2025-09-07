@@ -14,9 +14,10 @@ Now we get to Citizen Sleeper.
 
 I bought the game on sale along with another game because the bundle was cheap. I didn't read the store page and didn't really look at reviews. I just bought it and then it said it was a good game to play between work so I got intrigued and booted it up. Immediately I realized that it wasn't like any of the games I had played before. I had played games like XCOM that were turn based strategies that relied on luck but I never had a table top dice system in a game before. I had never played any TTRPGs either so the experience was fresh. Then I read the dialogue in Citizen Sleeper. That's when I realized I had stumbled onto a masterpiece unlike any other game I'd ever played before.
 
-I am a reader by heart. I used to love novels and used to read a few books every month. At some point I lost the habit was couldn't really pick up a book anymore but my love for them remained. Citizen Sleeper's dialogue and story writing brought back every single thing I missed in books and gave me an experience that I had never had in any of the hundreds of books I had read upto then. 
+I am a reader by heart. I used to love novels and used to read a few books every month. At some point I lost the habit was couldn't really pick up a book anymore but my love for them remained. Citizen Sleeper's dialogue and story writing brought back every single thing I missed in books and gave me an experience that I had never had in any of the hundreds of books I had read upto then.
 
 ==:Spoilers Ahead:==
+
 <div class="spoiler">
 <div class="spoiler_active">
 

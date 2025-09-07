@@ -1135,45 +1135,45 @@ swiper-container {
 }
 
 #vertex_gol {
-    white-space: pre;
-    font-family: "Source Code Pro", monospace;
-    line-height: 1.17em;
-    cursor: crosshair;
-    pointer-events: all;
+  white-space: pre;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.17em;
+  cursor: crosshair;
+  pointer-events: all;
 }
 
 @font-face {
-    font-family: 'Source Code Pro';
-    src: url('/assets/fonts/SourceCodePro/TTF/SourceCodePro-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Source Code Pro";
+  src: url("/assets/fonts/SourceCodePro/TTF/SourceCodePro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 //Vectors and icons by <a href="https://github.com/kamilagraf/react-swm-icon-pack?ref=svgrepo.com" target="_blank">Software Mansion</a> in CC Attribution License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>
 .spoiler_active {
-    filter: blur(5px);
-    transition: 1s linear filter;
+  filter: blur(5px);
+  transition: 1s linear filter;
 }
 
 .spoiler_inactive {
-    filter: none;
-    transition: 1s linear filter;
+  filter: none;
+  transition: 1s linear filter;
 }
 
 .spoiler_icon::before {
-    content: "Spoilers!";
+  content: "Spoilers!";
 }
 
 .spoiler_icon {
-    height: 3em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  height: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-    transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
 
 .spoiler {
-    position: relative;
+  position: relative;
 }
