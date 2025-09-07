@@ -1136,7 +1136,7 @@ swiper-container {
 
 #vertex_gol {
     white-space: pre;
-    font-family: monospace;
+    font-family: "Source Code Pro", monospace;
     line-height: 1.17em;
     cursor: crosshair;
     pointer-events: all;
@@ -1145,6 +1145,15 @@ swiper-container {
 @font-face {
     font-family: 'jgs';
     src: url('/assets/fonts/jgs-main/fonts/jgs_Font.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/SourceCodePro/TTF/SourceCodePro-Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
