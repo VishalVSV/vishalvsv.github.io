@@ -1,5 +1,7 @@
 let gol_canvas = document.getElementById("vertex_gol");
 let run = true;
+let won = false;
+let run_time = 0;
 gol_canvas.onclick = function (e) {
   let rect = e.target.getBoundingClientRect();
   let x = e.clientX - rect.left;
@@ -75,7 +77,7 @@ lookup[1][1] = "█";
 function draw() {
   let res = "╔";
 
-  let title = " The Game of Life ";
+  let title = won ? " Congratulations! " : " The Game of Life ";
 
   let padding = 16 - title.length / 2;
 
@@ -91,7 +93,15 @@ function draw() {
   for (let j = 0; j < 32; j += 2) {
     res += "║";
     for (let i = 0; i < 32; i++) {
-      res += lookup[grid_raw[j][i]][grid_raw[j + 1][i]];
+
+      if (!won) res += lookup[grid_raw[j][i]][grid_raw[j + 1][i]];
+      else {
+        if ((j / 2) % 2 == 1 && j < 30) {
+          res += "You win!  "[(i + run_time + 10 + (j / 2)) % 10];
+        } else {
+          res += " ";
+        }
+      }
     }
     res += "║\n";
   }
@@ -116,6 +126,8 @@ function tick() {
   let grid_copy = grid_raw.map((a) => {
     return { ...a };
   });
+
+  let total_alive = 0;
 
   for (let j = 0; j < 32; j++) {
     for (let i = 0; i < 32; i++) {
@@ -143,10 +155,19 @@ function tick() {
         grid_copy[j][i] = 0;
       }
 
+      total_alive += alive;
+
       if (grid_copy[j][i] != prev) {
         updated = true;
       }
     }
+  }
+
+  if (total_alive == 0) {
+    updated = true;
+    won = true;
+  } else {
+    won = false;
   }
 
   grid_raw = grid_copy;
@@ -159,8 +180,10 @@ window.addEventListener("load", () => {
 
   let loop = window.setInterval(() => {
     if (run) {
-      tick();
+      run = tick();
       draw();
     }
   }, 60);
 });
+
+window.setInterval(() => {run_time += 1;}, 1000);

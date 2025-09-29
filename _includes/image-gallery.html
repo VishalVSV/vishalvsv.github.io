@@ -90,6 +90,8 @@
   });
 
   document.addEventListener("resize", resize_captions_{{include.id}});
+  window.setTimeout(() => {resize_captions_{{include.id}}();}, 1000);
+  window.setInterval(() => {resize_captions_{{include.id}}();}, 10000);
 
   function resize_captions_{{include.id}}() {
       for (const elem of image_elems_{{include.id}}) {
