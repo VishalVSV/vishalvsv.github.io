@@ -1140,6 +1140,16 @@ swiper-container {
   line-height: 1.17em;
   cursor: crosshair;
   pointer-events: all;
+  user-select: none;
+}
+
+.neonText {
+  color: var(--global-text-color);
+  text-shadow:
+    /* White glow */
+    0 0 3px  var(--global-text-color),
+    0 0 7px  var(--global-text-color),
+    0 0 10px var(--global-text-color),
 }
 
 @font-face {
