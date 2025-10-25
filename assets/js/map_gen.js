@@ -1,0 +1,1 @@
+let ctx=document.getElementById("map_can").getContext("2d");noise.seed(Math.random());let levels=[.1,.2,.4,.5],time=0;window.setInterval(()=>{for(var e=0;e<256;e++)for(var t=0;t<256;t++){let l=noise.simplex3(e/100,t/100,time);ctx.fillStyle="black";for(let e of levels)if(Math.abs(l-e)<.02){ctx.fillStyle="white";break}ctx.fillRect(2*e,2*t,2,2)}time+=.01},100);
