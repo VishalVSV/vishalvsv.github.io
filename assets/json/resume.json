@@ -25,12 +25,12 @@
   ],
   "projects": [
     {
-      "name": "Inversion of Internal Rotation Rate of Red Giants",
+      "name": "MESA Stellar modelling for determining the age of stars using Asteroseismology",
       "summary": "Prof. Shravan Hanasoge, TIFR, Mumbai.",
       "highlights": ["Computation Physics", "Asteroseismology", "Astrophysics"],
       "startDate": "2025",
       "endDate": "August",
-      "url": ""
+      "url": "/assets/pdf/Thesis.pdf"
     },
     {
       "name": "Helioseismic Inversion of Rotation Rate using RLS method",
