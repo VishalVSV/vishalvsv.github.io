@@ -76,3 +76,11 @@ layout: default
 </div>
 
 <script src="/assets/js/conway_gol.js"></script>
+
+<script>
+  fetch('/assets/txt/portrait.txt')
+  .then(response => response.text())
+  .then((data) => {
+    document.getElementById("portrait").innerText = data;
+  })
+</script>
