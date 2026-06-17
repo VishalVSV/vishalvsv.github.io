@@ -4,6 +4,12 @@
 
 // Typography
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter";
+}
+
 p,
 h1,
 h2,
@@ -1156,6 +1162,12 @@ swiper-container {
   cursor: crosshair;
   pointer-events: all;
   user-select: none;
+}
+
+.v-ascii-art {
+  white-space: pre;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.17em;
 }
 
 .neonText {
