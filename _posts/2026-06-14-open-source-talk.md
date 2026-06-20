@@ -30,27 +30,16 @@ I thought it was incredible to be given the chance to officially give a talk so 
 
 What I realized giving this talk multiple times is that people hate Windows but have no idea that there are alternatives. What FOSS and Linux gives is the realization that you have a very real alternative that is actually much better in many ways. I'd say there's still some ways to go for Linux and FOSS to overtake proprietary software but the onus is actually on the consumers and not on the community. FOSS is in a great place today and more people would only speed up the process.  
 
-<div class="v-ascii-art">
-            .-"""-.
-           '       \
-          |,.  ,-.  |
-          |()L( ()| |
-          |,'  `".| |
-          |.___.',| `
-         .j `--"' `  `.
-        / '        '   \
-       / /          `   `.
-      / /            `    .
-     / /              l   |
-    . ,               |   |
-    ,"`.             .|   |
- _.'   ``.          | `..-'l
-|       `.`,        |      `.
-|         `.    __.j         )
-|__        |--""___|      ,-'
-   `"--...,+""""   `._,.-' mh
-
+<div class="v-ascii-art" id="linux_peng_art">
 </div>
 
 [^1]: After being exposed to Fedora and Linux in general he rapidly evolved and now does scientific computation in Theoretical Condensed Matter and related fields. 
-[^2]: He gave a wonderful talk on the reality of publishing in science and the importance of Open Access and archiving. 
+[^2]: He gave a wonderful talk on the reality of publishing in science and the importance of Open Access and archiving.
+
+<script>
+  fetch('/assets/txt/penguin.txt')
+  .then(response => response.text())
+  .then((data) => {
+    document.getElementById("linux_peng_art").innerText = data;
+  }) 
+</script> 

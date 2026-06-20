@@ -51,8 +51,7 @@
   split: "/" %} {% assign filename = filenameparts | last | replace: file.extname,"" %}
   <div class="img_item_{{include.id}}">
     <a href="{{ file.path | relative_url }}" title="{{ filename }}">
-      <img class="gallery_image_{{include.id}}" src="{{include.folder}}{{file.name }}" alt="{{ filename }}" /> </a
-    ><br />
+      <img class="gallery_image_{{include.id}}" src="{{include.folder}}{{file.name }}" alt="{{ filename }}" /></a><br />
     <div class="descriptions_{{include.id}}">{{filename}}</div>
   </div>
   {% endif %} {% endif %} {% endfor %}
