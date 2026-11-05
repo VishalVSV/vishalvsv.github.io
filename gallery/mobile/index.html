@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mobile Photography</title>
+        <style>
+            :root {
+                --fg-color: black;
+            }
+
+html {
+    font-family: 'Courier New', 'monospace';
+    font-size: 1.2em;
+    margin-bottom: 0;
+    width: 99%; 
+    height: 100%;
+}
+
+            body { 
+                width: 100%;
+                height: 95%;
+            }
+
+            @media screen and (orientation: landscape) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            @media screen and (orientation: portrait) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            #page-header {
+                padding-bottom: 5px;
+                border-bottom: solid 2px lightgrey;
+            }
+
+            #page-content {
+                margin-top: 5%;
+                flex-grow: 1;
+            }
+
+            #page-footer {
+                margin-top: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-top: solid 2px lightgray;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            header {                
+                display: flex;
+                justify-content: space-between;
+            }
+
+            @font-face {
+                font-family: freefont;
+                src: url('./assets/fonts/freefont/FreeMonoBold.woff');
+            }
+
+            .gallery-box {
+                display: flex;
+                overflow: scroll;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            img {
+                max-height: 50vh;
+                max-width: 80vw;
+            }
+
+            .gallery-item {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .gallery-item > p {
+                margin-top: 0px;
+                font-size: 0.9em;
+            }
+
+            .gallery-desc {
+                display: flex;
+            }
+
+            .gallery-desc > p {
+                flex-grow: 1;
+                width: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page-box">
+            <div id="page-content">
+                <div id="cv-header">
+                    <h1>Mobile Photography</h1>
+                    <p>A collection of photos all shot on various mobiles. I am no professional photographer and I am quite bad at learning it by any method apart from sheer trial and error. None of these images (so far) have been edited beyond whatever the phone automatically does. A drastic increase in quality did happen when I got a phone with a better camera and post processing.</p>
+                </div>
+                <div class="gallery-box">
+                    <div class='gallery-item'><a href='/assets/images/galleries/mobile/chennai_metro.jpeg'><img src='/assets/images/galleries/mobile/chennai_metro.jpeg' loading='lazy' aria-labelledby='gallery_img_0'/></a><br><div class='gallery-desc'><p id='gallery_img_0'>St. Thomas Metro Station at Chennai at sunset. </p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mu_sunbeams.jpeg'><img src='/assets/images/galleries/mobile/mu_sunbeams.jpeg' loading='lazy' aria-labelledby='gallery_img_1'/></a><br><div class='gallery-desc'><p id='gallery_img_1'>Mumbai University's Kalina Campus.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/sunset_1.jpeg'><img src='/assets/images/galleries/mobile/sunset_1.jpeg' loading='lazy' aria-labelledby='gallery_img_2'/></a><br><div class='gallery-desc'><p id='gallery_img_2'>A sunset on Medavakkam, Chennai. <br> (Shot after a light shower on my way to tuition)</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/uni_flowers.jpg'><img src='/assets/images/galleries/mobile/uni_flowers.jpg' loading='lazy' aria-labelledby='gallery_img_3'/></a><br><div class='gallery-desc'><p id='gallery_img_3'>Flowering trees at my Campus.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/spider_web_droplets.jpg'><img src='/assets/images/galleries/mobile/spider_web_droplets.jpg' loading='lazy' aria-labelledby='gallery_img_4'/></a><br><div class='gallery-desc'><p id='gallery_img_4'>A spiderweb laden with droplets spotted on a monsoon trek to Lohagad Fort.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/samvaya_1.jpg'><img src='/assets/images/galleries/mobile/samvaya_1.jpg' loading='lazy' aria-labelledby='gallery_img_5'/></a><br><div class='gallery-desc'><p id='gallery_img_5'>The band performance at my college's cultural festival.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/samvaya_0.jpg'><img src='/assets/images/galleries/mobile/samvaya_0.jpg' loading='lazy' aria-labelledby='gallery_img_6'/></a><br><div class='gallery-desc'><p id='gallery_img_6'>The stage of my college's cultural festival.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mutant_cctv.jpg'><img src='/assets/images/galleries/mobile/mutant_cctv.jpg' loading='lazy' aria-labelledby='gallery_img_7'/></a><br><div class='gallery-desc'><p id='gallery_img_7'>A funny shot of a CCTV camera with pigeon spikes attached to it.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mumbai_monsoon_0.jpg'><img src='/assets/images/galleries/mobile/mumbai_monsoon_0.jpg' loading='lazy' aria-labelledby='gallery_img_8'/></a><br><div class='gallery-desc'><p id='gallery_img_8'>A shot of the Mumbai Monsoon from my college mess.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mumbai_ganesh_0.jpg'><img src='/assets/images/galleries/mobile/mumbai_ganesh_0.jpg' loading='lazy' aria-labelledby='gallery_img_9'/></a><br><div class='gallery-desc'><p id='gallery_img_9'>A photo of one of the many Ganesh idols in Mumbai during the 2025 Ganesh Chaturti.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mesa_code.jpg'><img src='/assets/images/galleries/mobile/mesa_code.jpg' loading='lazy' aria-labelledby='gallery_img_10'/></a><br><div class='gallery-desc'><p id='gallery_img_10'>The life of computational astrophysics.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/marine_drive_sunset_0.jpg'><img src='/assets/images/galleries/mobile/marine_drive_sunset_0.jpg' loading='lazy' aria-labelledby='gallery_img_11'/></a><br><div class='gallery-desc'><p id='gallery_img_11'>A picture of Pizza by the bay during Sunset.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/marine_drive_long_expo.jpg'><img src='/assets/images/galleries/mobile/marine_drive_long_expo.jpg' loading='lazy' aria-labelledby='gallery_img_12'/></a><br><div class='gallery-desc'><p id='gallery_img_12'>A long exposure shot of the road beside marine drive at night.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/droplet_shrooms.jpg'><img src='/assets/images/galleries/mobile/droplet_shrooms.jpg' loading='lazy' aria-labelledby='gallery_img_13'/></a><br><div class='gallery-desc'><p id='gallery_img_13'>Taken on a monsoon trek to Visapur.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/csmt_dome.jpg'><img src='/assets/images/galleries/mobile/csmt_dome.jpg' loading='lazy' aria-labelledby='gallery_img_14'/></a><br><div class='gallery-desc'><p id='gallery_img_14'>A photo taken inside the dome of the famous CSMT local train station in South Bombay.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/classes_0.jpg'><img src='/assets/images/galleries/mobile/classes_0.jpg' loading='lazy' aria-labelledby='gallery_img_15'/></a><br><div class='gallery-desc'><p id='gallery_img_15'>An average day at CEBS.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/bird_vertical.jpg'><img src='/assets/images/galleries/mobile/bird_vertical.jpg' loading='lazy' aria-labelledby='gallery_img_16'/></a><br><div class='gallery-desc'><p id='gallery_img_16'>A photo of a myna on a street light.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/bird_wingspan.jpg'><img src='/assets/images/galleries/mobile/bird_wingspan.jpg' loading='lazy' aria-labelledby='gallery_img_17'/></a><br><div class='gallery-desc'><p id='gallery_img_17'>A crow mid-flight.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/chembra_peak.jpg'><img src='/assets/images/galleries/mobile/chembra_peak.jpg' loading='lazy' aria-labelledby='gallery_img_18'/></a><br><div class='gallery-desc'><p id='gallery_img_18'>The grassy Chembra peak in Wayanad in Kerala.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/chennai_airport.jpg'><img src='/assets/images/galleries/mobile/chennai_airport.jpg' loading='lazy' aria-labelledby='gallery_img_19'/></a><br><div class='gallery-desc'><p id='gallery_img_19'>A shot taken at the Chennai International Airport.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/daisy_patch.jpg'><img src='/assets/images/galleries/mobile/daisy_patch.jpg' loading='lazy' aria-labelledby='gallery_img_20'/></a><br><div class='gallery-desc'><p id='gallery_img_20'>A patch of daisies spotted on a trek :)</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/harishchandraghad_trek_1.jpg'><img src='/assets/images/galleries/mobile/harishchandraghad_trek_1.jpg' loading='lazy' aria-labelledby='gallery_img_21'/></a><br><div class='gallery-desc'><p id='gallery_img_21'>A shot from the top of Harishchandragad in Maharashtra.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/harishchandraghad_trek_2.jpg'><img src='/assets/images/galleries/mobile/harishchandraghad_trek_2.jpg' loading='lazy' aria-labelledby='gallery_img_22'/></a><br><div class='gallery-desc'><p id='gallery_img_22'>A shot on the way to the peak of Harishchandragad in Maharashtra.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/harishchandraghad_trek_3.jpg'><img src='/assets/images/galleries/mobile/harishchandraghad_trek_3.jpg' loading='lazy' aria-labelledby='gallery_img_23'/></a><br><div class='gallery-desc'><p id='gallery_img_23'>Animal skulls found on a trek.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/harishchandraghad_trek_4.jpg'><img src='/assets/images/galleries/mobile/harishchandraghad_trek_4.jpg' loading='lazy' aria-labelledby='gallery_img_24'/></a><br><div class='gallery-desc'><p id='gallery_img_24'>A dam at the foothills of Harishchandragad in Maharashtra.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/konkankada.jpg'><img src='/assets/images/galleries/mobile/konkankada.jpg' loading='lazy' aria-labelledby='gallery_img_25'/></a><br><div class='gallery-desc'><p id='gallery_img_25'>The view for which I go trekking.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/monsoon_umbrella.jpg'><img src='/assets/images/galleries/mobile/monsoon_umbrella.jpg' loading='lazy' aria-labelledby='gallery_img_26'/></a><br><div class='gallery-desc'><p id='gallery_img_26'>A POV of Mumbai monsoons.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mumbai_phoenix_christmas_tree.jpg'><img src='/assets/images/galleries/mobile/mumbai_phoenix_christmas_tree.jpg' loading='lazy' aria-labelledby='gallery_img_27'/></a><br><div class='gallery-desc'><p id='gallery_img_27'>A christmas tree at the Phoenix Mall in Mumbai.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mumbai_pigeons.jpg'><img src='/assets/images/galleries/mobile/mumbai_pigeons.jpg' loading='lazy' aria-labelledby='gallery_img_28'/></a><br><div class='gallery-desc'><p id='gallery_img_28'>A classic shot of Mumbai's real residents.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/mumbai_theatre.jpg'><img src='/assets/images/galleries/mobile/mumbai_theatre.jpg' loading='lazy' aria-labelledby='gallery_img_29'/></a><br><div class='gallery-desc'><p id='gallery_img_29'>A night shot of Eros Cinema in South Bombay.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/pc_side.jpg'><img src='/assets/images/galleries/mobile/pc_side.jpg' loading='lazy' aria-labelledby='gallery_img_30'/></a><br><div class='gallery-desc'><p id='gallery_img_30'>A photo of the only lights in my PC.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/restaurant_in_the_rain.jpg'><img src='/assets/images/galleries/mobile/restaurant_in_the_rain.jpg' loading='lazy' aria-labelledby='gallery_img_31'/></a><br><div class='gallery-desc'><p id='gallery_img_31'>The monsoon view while you get a tea in front of the campus.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/traffic_lights.jpg'><img src='/assets/images/galleries/mobile/traffic_lights.jpg' loading='lazy' aria-labelledby='gallery_img_32'/></a><br><div class='gallery-desc'><p id='gallery_img_32'>The traffic lights that everyone sees and no one follows outside Mumbai University.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/wayanad_bonfire_1.jpg'><img src='/assets/images/galleries/mobile/wayanad_bonfire_1.jpg' loading='lazy' aria-labelledby='gallery_img_33'/></a><br><div class='gallery-desc'><p id='gallery_img_33'>A bonfire at a resort in Wayanad.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/wayanad_bonfire_2.jpg'><img src='/assets/images/galleries/mobile/wayanad_bonfire_2.jpg' loading='lazy' aria-labelledby='gallery_img_34'/></a><br><div class='gallery-desc'><p id='gallery_img_34'>A long exposure of a bonfire at Wayanad.</p></div></div><div class='gallery-item'><a href='/assets/images/galleries/mobile/wayanad_resort.jpg'><img src='/assets/images/galleries/mobile/wayanad_resort.jpg' loading='lazy' aria-labelledby='gallery_img_35'/></a><br><div class='gallery-desc'><p id='gallery_img_35'>A night time photo taken at a resort in Wayanad.</p></div></div>
+                </div>    
+            </div>
+            <div id="page-footer">
+                Vishal Sai Vetrivel
+            </div>
+        </div>
+    </body>
+</html>

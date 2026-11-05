@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vishal Sai Vetrivel</title>
+        <style>
+            :root {
+                --fg-color: black;
+            }
+
+html {
+    font-family: 'Courier New', 'monospace';
+    font-size: 1.2em;
+    padding-top: 5%;
+    margin-bottom: 0;
+    width: 100%; 
+    height: 90%;
+}
+
+            body { 
+                width: 100%;
+                height: 95%;
+            }
+
+            @media screen and (orientation: landscape) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            @media screen and (orientation: portrait) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            #page-content {
+                flex-grow: 1;
+            }
+
+            #page-footer {
+                margin-top: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-top: solid 2px lightgray;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            header {
+                display: flex;
+                align-items: center;
+            }
+
+            a {
+                text-decoration: underline;
+                color: var(--fg-color, black);
+            }
+
+            .blog_entry {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .blog_timestamp {
+                align: right;
+            }
+
+            @font-face {
+                font-family: freefont;
+                src: url('./assets/fonts/freefont/FreeMonoBold.woff');
+            }
+
+            #vertex_gol {
+                font-size: 0.6em;
+                font-weight: bold;
+                font-family: 'freefont', 'Courier New', monospace;
+                cursor: crosshair;
+                margin-right: 20px;
+                user-select: none;
+                white-space: pre;
+            }
+
+            .minor-info {
+                margin: auto;
+                font-size: 0.8em;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page-box">
+            <div id="page-header">
+                <header>
+                    <div id="vertex_gol" aria-label="A game of life simulation rendered using unicode text blocks">╔═══════ <del>The Game of Life</del> ═══════╗<br>║.......▄....▀.▀▀██▀.█▄..........║<br>║███..▀█.▄▄.......█..▀...........║<br>║....▄....▀▄.......▀▀............║<br>║.▄▄█▄....█......................║<br>║.▀▀...▀▀▄██................██▄..║<br>║.......▄▄▄.............██▄▀█.▀▀.║<br>║▄.....█.▄......▄▄......▀.▀▀.▀...║<br>║▀.....▀▀▀......█.█▄....▄......▀.║<br>║▄▄▄..........▄█▀.▀▄.......██▀...║<br>║▀▀█.........▀.█.█..█▄..▄.▄......║<br>║.▀▄..........▀██▄▄...▀.▀.█.....█║<br>║▄▄▀..............▀.▀▀..▀▀.......║<br>║▀..........................▄▄▄▄.║<br>║...............▄▄.........▀▄▄▄▀.║<br>║............▄▄▀▀█...........▀...║<br>║...........▄▀▀.██..█▄...........║<br>╚════════════ Start ═════════════╝</div>
+                    <div><h1>Vishal Sai Vetrivel</h1><div><p>Musings of a realistic idealist</p>
+<h4>Contact me</h4>
+<p>Work: <a href="mailto:vishal.vetrivel@uni-graz.at">vishal.vetrivel@uni-graz.at</a><br />
+Personal: <a href="mailto:vishalsvetrivel@gmail.com">vishalsvetrivel@gmail.com</a></p>
+</div></div> 
+                </header> 
+            </div>
+            <div id="page-content">
+                <h3>Gallery</h3><div class='blog_entry'><a href='/gallery/mobile' aria-labelledby='gallery_entry_1'>Mobile Photography</a><div class='blog_timestamp' id='gallery_entry_1'>A collection of mobile phone photos.</div></div><br><h3>Blogs:</h3><div class='blog_entry'><a href='blogs/2026/The-Need-for-Free-and-Open-Sou/'>The Need for Free and Open Source Software</a><div class='blog_timestamp'>2026-11-02</div></div><br>
+                <!--<h3>Blogs:</h3>
+                <div class="blog_entry"><a href="./test.html">Test</a><div class="blog_timestamp">10-10-2026</div></div><br> -->  
+            </div>
+            <div id="page-footer">
+                <div>Vishal Sai Vetrivel</div>
+                <div><a href='CV'>CV</a></div>
+            </div>
+            <div class="minor-info"> 
+                Built 4 files in 6ms.<br><br>Made using a hand rolled static website generator written in <a href='https://rust-lang.org/'>Rust</a>.
+            </div>
+        </div>
+        <script src="./assets/js/conway_gol.js">
+            
+        </script>
+
+        <script>
+            document.getElementById("vertex_gol").addEventListener("contextmenu", (event) => {event.preventDefault();return false;});
+        </script>
+    </body>
+</html>
+

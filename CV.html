@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CV | Vishal Sai Vetrivel</title>
+        <style>
+            :root {
+                --fg-color: black;
+            }
+
+html {
+    font-family: 'Courier New', 'monospace';
+    font-size: 1.2em;
+    margin-bottom: 0;
+    width: 99%; 
+    height: 100%;
+}
+
+            body { 
+                width: 100%;
+                height: 95%;
+            }
+
+            @media screen and (orientation: landscape) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            @media screen and (orientation: portrait) {
+                #page-box {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 100%;
+                    margin: auto;
+                }
+            }
+
+            #page-header {
+                padding-bottom: 5px;
+                border-bottom: solid 2px lightgrey;
+            }
+
+            #page-content {
+                margin-top: 5%;
+                flex-grow: 1;
+            }
+
+            #page-footer {
+                margin-top: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-top: solid 2px lightgray;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            header {                
+                display: flex;
+                justify-content: space-between;
+            }
+
+            a {
+                text-decoration: underline;
+                color: var(--fg-color, black);
+            }
+
+            .blog_entry {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .blog_timestamp {
+                align: right;
+            }
+
+            @font-face {
+                font-family: freefont;
+                src: url('./assets/fonts/freefont/FreeMonoBold.woff');
+            }
+
+            #cv-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        </style>
+       
+        <!-- TODO: Do these need to be imported on the CV page? I don't think I'll ever syntax highlight anything here. --> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/highlight.min.js"></script>
+
+        <script defer>hljs.highlightAll();</script>
+    </head>
+    <body>
+        <div id="page-box">
+            <div id="page-content">
+                <div id="cv-header">
+                    <h1>Curriculum Vitae</h1>
+                    <h4><a href="assets/pdf/CV.pdf">pdf</a></h4>
+                </div>
+                <h3>Contact Details</h3>
+<p>Email Id: <a href="mailto:vishal.vetrivel@uni-graz.at">vishal.vetrivel@uni-graz.at</a></p>
+<h3>Education</h3>
+<ul>
+<li><strong>Doctor of Natural Sciences</strong>, University of Graz <span style='float:right;'> 2026-Present</span><br/></li>
+<li><strong>Integrated Master of Basic Science, Specialization in Physics,</strong> <span style='float:right;'> 2021-2026  </span><br/>
+UM DAE CEBS</li>
+<li><strong>SSCE</strong>, The PSBB Millennium <span style='float:right;'> 2019-2021</span><br/></li>
+<li><strong>AISSE</strong>, The PSBB Millennium <span style='float:right;'> 2008-2019</span><br/></li>
+</ul>
+<h3>Projects</h3>
+<ul>
+<li>
+<p><strong>MESA Stellar modeling for determining the age of stars using Asteroseismology</strong>  <span style='float:right;'> <a href="/assets/pdf/Thesis.pdf">pdf</a> </span><br/>
+Prof. Shravan Hanasoge, <em>DAA, TIFR, Mumbai</em> <span style='float:right;'> July 2025</span><br/></p>
+<p>Studied methods of improving the accuracy of stellar models generated through MESA, specifically
+working with Red Giants, such as surface corrections suggested by Ball &amp; Gizon and Kjeldsen. Also
+implemented the Canuto-Mazzitelli and Canuto-Goldman-Mazzitelli Models into MESA</p>
+</li>
+<li>
+<p><strong>Helioseismic Inversion of Rotation Rate using RLS method</strong> <span style='float:right;'> <a href="/assets/pdf/Report_8thSem.pdf">pdf</a> <a href="/assets/pdf/Report_7thSem.pdf">pdf</a>   </span><br/>
+Prof. H M Antia, <em>UM DAE CEBS, Mumbai</em> <span style='float:right;'> August 2024</span><br/></p>
+<p>Studied the fundamentals of Helioseismology and wrote programs, using Fortran and data from HMI
+and GONG, to solve the inverse problem of rotation rate by using the RLS method.</p>
+</li>
+<li>
+<p><strong>Digital pulse shaping of HPGe detector for neutron damage study</strong> <span style='float:right;'> <a href="/assets/pdf/NIUS_Report.pdf">pdf</a>   </span><br/>
+Prof. R Palit, <em>Nuclear and Computational Physics, DNAP, TIFR, Mumbai</em> <span style='float:right;'> Summer 2023</span><br/></p>
+<p>Developed an algorithm using CERN’s ROOT to digitally correct the spectrum obtained from a
+neutron damaged HGPe detector which showed that there is likely a statistical correlation between
+rise times of pulses and neutron damage in spectrums under Prof. R Palit.</p>
+</li>
+</ul>
+ 
+            </div>
+            <div id="page-footer">
+                Vishal Sai Vetrivel
+            </div>
+        </div>
+    </body>
+</html>
