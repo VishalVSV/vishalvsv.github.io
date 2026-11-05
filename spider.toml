@@ -1,0 +1,17 @@
+name="Vishal Sai Vetrivel"
+email="vishalsvetrivel@gmail.com"
+about_line="""
+Musings of a realistic idealist  
+#### Contact me
+Work: [vishal.vetrivel@uni-graz.at](mailto:vishal.vetrivel@uni-graz.at)  
+Personal: [vishalsvetrivel@gmail.com](mailto:vishalsvetrivel@gmail.com) 
+"""
+
+[blogs]
+root="blogs"
+
+[[gallery]]
+root="assets/images/galleries/mobile"
+name="Mobile Photography"
+permalink="mobile"
+description="A collection of mobile phone photos."
